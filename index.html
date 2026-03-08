@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atharv Rudrawar | Frontend Developer & Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">AR<span>.</span></div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item-theme">
+            <button
+              id="themeToggle"
+              class="theme-toggle"
+              aria-label="Toggle theme"
+            >
+              <span class="sun-icon">☀️</span>
+              <span class="moon-icon">🌙</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-hybrid" id="home">
+      <div class="hero-bg-portrait">
+        <img
+          src="assets/profile_image.jpeg"
+          alt="Portrait"
+          onerror="
+            this.src = 'https://placehold.co/1000x1200/0a0a0a/333?text=GAURI'
+          "
+        />
+      </div>
+      <div class="hero-content">
+        <span class="hero-name-label">Atharv Rudrawar</span>
+
+        <h1 class="hero-main-title">I'M <span>DEVELOPER</span></h1>
+
+        <p class="hero-description">
+          BCA Student | Frontend Developer | Power BI | Python Developer |
+          Automation | Data Analyst Currently pursuing BCA at Vaidyanath
+          College, Parli Vaijnath with focus on full-stack development.
+        </p>
+        <a href="#about" class="btn-red">LEARN MORE</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container split-layout">
+        <div class="about-details">
+          <span class="section-label">ABOUT ME</span>
+
+          <h2 class="about-title">CRAFTING CODE <br />WITH PASSION</h2>
+
+          <p class="about-desc">
+            Currently pursuing a Bachelor's of Computer Application degree at
+            Vaidyanath College, Parli Vaijnath. Focused on programming, web
+            development, and building practical projects with Python, Frontend
+            technologies and data analytics tools.
+          </p>
+          <div class="info-grid">
+            <div class="info-item"><b>Degree:</b> BCA</div>
+            <div class="info-item"><b>City:</b> Parli, Maharashtra</div>
+            <div class="info-item"><b>Focus:</b> Frontend Development</div>
+            <div class="info-item">
+              <b>Skills:</b> Python, Power BI, Automation
+            </div>
+            <div class="info-item">
+              <b>Email:</b> atharvrudrawar28@gmail.com
+            </div>
+            <div class="info-item">
+              <b>LinkedIn:</b> linkedin.com/in/atharv-rudrawar-27a0aa307
+            </div>
+          </div>
+          <div class="education-grid">
+            <div class="edu-card">
+              <h4>BACHELOR OF COMPUTER APPLICATION</h4>
+              <p>Vaidyanath College, Parli Vaijnath<br />2023 – 2026</p>
+            </div>
+
+            <div class="edu-card">
+              <h4>HIGHER SCHOOL CERTIFICATE</h4>
+              <p>
+                Little Flower Junior College, Parli Vaijnath<br />2022 – 2023
+              </p>
+            </div>
+
+            <div class="edu-card">
+              <h4>SECONDARY SCHOOL CERTIFICATE</h4>
+              <p>Vaidyanath Vidhyalay<br />2020 – 2021</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-portrait">
+          <img
+            src="assets/profile_image.jpeg"
+            alt="About"
+            onerror="
+              this.src = 'https://placehold.co/600x800/111/444?text=GAURI'
+            "
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Area -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div style="text-align: center; margin-bottom: 60px">
+          <span class="section-label">SKILL AREA</span>
+          <h2 style="font-size: 3.5rem; font-weight: 900">
+            TECHNICAL EXPERTISE
+          </h2>
+        </div>
+
+        <div class="split-layout">
+          <div class="skill-pills">
+            <span class="skill-pill">PYTHON</span>
+            <span class="skill-pill">POWER BI</span>
+            <span class="skill-pill">HTML</span>
+            <span class="skill-pill">CSS</span>
+            <span class="skill-pill">JAVASCRIPT</span>
+            <span class="skill-pill">BOOTSTRAP</span>
+            <span class="skill-pill">DATA ANALYSIS</span>
+            <span class="skill-pill">AUTOMATION</span>
+            <span class="skill-pill">MS EXCEL</span>
+            <span class="skill-pill">GIT / GITHUB</span>
+          </div>
+          <div class="skill-bars">
+            <div class="progress-container">
+              <div class="progress-labels"><span>PYTHON</span></div>
+              <div class="progress-bar-bg">
+                <div class="progress-fill" style="width: 90%">
+                  <div class="progress-percent-box">85%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="progress-labels"><span>FRONTEND DEVELOPMENT</span></div>
+              <div class="progress-bar-bg">
+                <div class="progress-fill" style="width: 85%">
+                  <div class="progress-percent-box">90%</div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="progress-labels">
+                <span>DATA ANALYSIS</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-fill" style="width: 80%">
+                  <div class="progress-percent-box">80%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div style="margin-top: 100px">
+          <span class="section-label">EXPERIENCE</span>
+          <div style="display: flex; flex-direction: column; gap: 40px">
+            <div
+              style="
+                border-left: 2px solid var(--color-accent);
+                padding-left: 30px;
+              "
+            >
+              <h3 style="font-size: 1.8rem; font-weight: 900">
+                Student Intern
+              </h3>
+
+              <p
+                style="
+                  color: var(--color-accent);
+                  font-weight: 800;
+                  margin-bottom: 15px;
+                "
+              >
+                Kamarta Robotics Technology and Automation Pvt Ltd | July 2025 –
+                Present
+              </p>
+
+              <ul
+                style="
+                  color: var(--color-text-muted);
+                  list-style: inside square;
+                "
+              >
+                <li>Completed a 45-day remote internship.</li>
+                <li>Worked on robotics systems and automation workflows.</li>
+                <li>
+                  Gained hands-on experience with industrial automation
+                  applications.
+                </li>
+                <li>
+                  Improved problem-solving and technical development skills.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon">📈</div>
+            <span class="stat-number">99.15</span>
+            <span class="stat-label">MAH MCA CET AIR</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">💻</div>
+            <span class="stat-number">3+</span>
+            <span class="stat-label">CORE PROJECTS</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🎓</div>
+            <span class="stat-number">2</span>
+            <span class="stat-label">INTERNSHIPS</span>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🏆</div>
+            <span class="stat-number">5+</span>
+            <span class="stat-label">CERTIFICATIONS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <span class="section-label">PORTFOLIO</span>
+        <h2 style="font-size: 3.5rem; font-weight: 900; margin-bottom: 60px">
+          FEATURED WORK
+        </h2>
+
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+          "
+        >
+          <!-- BCA Learning Hub (Current) -->
+          <div
+  class="project-card"
+  style="border: 1px solid #111; padding: 40px; border-radius: 8px"
+>
+  <h3 style="font-size: 2rem; margin-bottom: 5px">PORTFOLIO WEBSITE</h3>
+
+  <p
+    style="
+      color: var(--color-accent);
+      font-weight: 800;
+      margin-bottom: 20px;
+    "
+  >
+    Personal Developer Portfolio
+  </p>
+
+  <p style="color: var(--color-text-muted); margin-bottom: 20px">
+    Designed and developed a personal portfolio website using HTML, CSS and
+    JavaScript to showcase projects, skills and professional experience.
+  </p>
+</div>
+
+<div
+  class="project-card"
+  style="border: 1px solid #111; padding: 40px; border-radius: 8px"
+>
+  <h3 style="font-size: 2rem; margin-bottom: 5px">DATA ANALYSIS DASHBOARD</h3>
+
+  <p
+    style="
+      color: var(--color-accent);
+      font-weight: 800;
+      margin-bottom: 20px;
+    "
+  >
+    Power BI Dashboard
+  </p>
+
+  <p style="color: var(--color-text-muted); margin-bottom: 20px">
+    Built interactive dashboards using Microsoft Power BI for analyzing and
+    visualizing datasets with charts, KPIs and performance metrics.
+  </p>
+</div>
+
+<div
+  class="project-card"
+  style="border: 1px solid #111; padding: 40px; border-radius: 8px"
+>
+  <h3 style="font-size: 2rem; margin-bottom: 5px">AUTOMATION SCRIPTS</h3>
+
+  <p
+    style="
+      color: var(--color-accent);
+      font-weight: 800;
+      margin-bottom: 20px;
+    "
+  >
+    Python Automation
+  </p>
+
+  <p style="color: var(--color-text-muted); margin-bottom: 20px">
+    Developed Python scripts to automate repetitive tasks and data processing
+    workflows improving productivity and efficiency.
+  </p>
+
+  <span
+    style="
+      color: var(--color-accent);
+      font-weight: 800;
+      font-size: 0.8rem;
+    "
+    >[ SELF PROJECT ]</span
+  >
+</div>
+
+<div
+  class="project-card"
+  style="border: 1px solid #111; padding: 40px; border-radius: 8px"
+>
+  <h3 style="font-size: 2rem; margin-bottom: 5px">WEB DEVELOPMENT PROJECT</h3>
+
+  <p
+    style="
+      color: var(--color-accent);
+      font-weight: 800;
+      margin-bottom: 20px;
+    "
+  >
+    Frontend Development
+  </p>
+
+  <p style="color: var(--color-text-muted); margin-bottom: 20px">
+    Developed responsive web pages using HTML, CSS, Bootstrap and JavaScript
+    with modern UI design and mobile friendly layout.
+  </p>
+</div>
+
+        <!-- Awards, Certifications & Leadership -->
+        <div
+          style="
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+          "
+        >
+<div>
+  <span class="section-label">ACHIEVEMENTS</span>
+
+  <div
+    class="edu-card"
+    style="
+      padding: 30px;
+      border-radius: 8px;
+      border-left: 4px solid var(--color-accent);
+    "
+  >
+    <h4 style="margin-bottom: 10px">
+      Qualified Naukri Campus – Young Turks 2025 (Round 1)
+    </h4>
+
+    <p style="color: var(--color-text-muted); font-size: 0.9rem">
+      Scored 94.73% in the Naukri Campus Young Turks 2025 assessment.
+    </p>
+  </div>
+</div>
+
+<div>
+  <span class="section-label">CERTIFICATIONS</span>
+
+  <div
+    class="edu-card"
+    style="
+      padding: 30px;
+      border-radius: 8px;
+      border-left: 4px solid #222;
+    "
+  >
+    <ul style="color: var(--color-text-muted); list-style: inside square">
+      <li>Foundation of Web Development - CSS, Bootstrap, JS, React</li>
+      <li>Communication Skill Certification</li>
+      <li>Generative AI Studio Certification</li>
+    </ul>
+  </div>
+</div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      id="contact"
+      style="padding: 80px 0; border-top: 1px solid #111; text-align: center"
+    >
+      <div class="container">
+        <div class="footer-social">
+          <a
+            href="https://www.linkedin.com/in/atharv-rudrawar-27a0aa307/"
+            target="_blank"
+            class="footer-link"
+            >LINKEDIN</a
+          >
+          <a
+            href="https://github.com/atharvrudrawar"
+            target="_blank"
+            class="footer-link"
+            >GITHUB</a
+          >
+          <a href="mailto:atharvrudrawar28@gmail.com" class="footer-link">MAIL</a>
+        </div>
+        <p
+          style="
+            color: #333;
+            font-size: 0.7rem;
+            letter-spacing: 3px;
+            font-weight: 800;
+            margin-top: 20px;
+          "
+        >
+          © ATHARV RUDRAWAR PORTFOLIO
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
